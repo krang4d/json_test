@@ -1,0 +1,7 @@
+install lib: sudo apt-get install libjson-c-dev
+
+link to JSON-C - A JSON implementation in C:
+   https://json-c.github.io/json-c/json-c-0.13/doc/html/index.htm
+
+build:
+   gcc test.c -ljson-c -o test
